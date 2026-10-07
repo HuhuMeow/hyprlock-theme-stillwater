@@ -1,0 +1,7 @@
+// Merge this shortcut into the existing binds block in your niri config.
+// hyprlock reads ~/.config/hypr/hyprlock.conf by default.
+binds {
+    Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" {
+        spawn "hyprlock" "--grace" "0";
+    }
+}
